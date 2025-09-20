@@ -1,0 +1,15 @@
+Accessing my directories: 
+
+cd git
+cd Computational-Social-Science-Projects
+cd Github-Collaboration-Practice
+
+
+vim "Group Project.txt" 
+I to access edit mode and add text. 
+ESC to exit edit mode
+:wq to exit 
+
+git add   (to stage my updates)
+git commit -m "4d updates"
+git push (to push udpates to github) 
