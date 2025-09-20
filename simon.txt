@@ -1,0 +1,15 @@
+
+cd ~/Documents/UCBF25/Computational-Social-Science-Training-Program
+git clone https://github.com/peterkirechu-creator/Github-Collaboration-Practice.git
+cd ~/Documents/UCBF25/Computational-Social-Science-Training-Program/Github-Collaboration-Practice
+git checkout -b simon-branch
+git fetch origin
+git merge origin \main
+ls
+vim “Group Project.txt”
+:wq
+vim "simon.txt"
+:wq
+git add .
+git commit -m "simon's edit"
+git push -u origin simon-branch
