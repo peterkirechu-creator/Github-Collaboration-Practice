@@ -1,0 +1,20 @@
+cd GitHub-Collaboration-Practice
+git checkout -b GRB_branch
+git checkout main 
+vim "Group Project.txt"
+i
+[type in edit]
+Esc key
+:wq
+git add .
+git commit -m "Comment added"
+git push -u origin GRB_branch
+touch "Gisselle_commands.txt"
+vim "Gisselle_commands.txt"
+i
+[typed in edit]
+Esc key
+:wq
+git add .
+git commit -m "Command text GRB"
+git push -u origin GRB_branch
